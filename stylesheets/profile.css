@@ -1,0 +1,27 @@
+/* line 1, ../sass/profile.scss */
+.header {
+  background-image: url("../images/slider_2.jpg");
+}
+/* line 3, ../sass/profile.scss */
+.header .header-block {
+  float: none;
+  margin: 0 auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: white;
+}
+/* line 10, ../sass/profile.scss */
+.header .header-block .profile-pic img {
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+/* line 19, ../sass/profile.scss */
+.main .main-block {
+  float: none;
+  margin: 0 auto;
+}
+/* line 22, ../sass/profile.scss */
+.main .main-block .footer {
+  border-top: 6px solid;
+}
