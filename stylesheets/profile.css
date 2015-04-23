@@ -1,6 +1,6 @@
 /* line 1, ../sass/profile.scss */
 .header {
-  background-image: url("../images/slider_2.jpg");
+  background-image: url("../images/header_images.jpg");
 }
 /* line 3, ../sass/profile.scss */
 .header .header-block {
@@ -10,18 +10,28 @@
   padding-bottom: 3%;
   color: white;
 }
-/* line 10, ../sass/profile.scss */
-.header .header-block .profile-pic img {
-  border: 2px solid white;
-  border-radius: 50%;
-}
 
-/* line 19, ../sass/profile.scss */
+/* line 13, ../sass/profile.scss */
 .main .main-block {
   float: none;
   margin: 0 auto;
 }
-/* line 22, ../sass/profile.scss */
+/* line 16, ../sass/profile.scss */
 .main .main-block .footer {
   border-top: 6px solid;
+}
+
+/* line 24, ../sass/profile.scss */
+.profile1-page .header1 .introduction {
+  float: none;
+  margin: 0 auto;
+}
+/* line 27, ../sass/profile.scss */
+.profile1-page .header1 .introduction .brder-box {
+  border: 1px solid;
+  background: black;
+  color: white;
+  font-size: 25px;
+  color: white;
+  padding: 4px;
 }

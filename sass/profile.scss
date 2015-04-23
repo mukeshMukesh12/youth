@@ -1,18 +1,12 @@
 .header{
-	background-image:url("../images/slider_2.jpg");
+	background-image:url("../images/header_images.jpg");
 	 .header-block{
 	 	float:none;
 	 	margin:0 auto;
 	 	padding-top: 3%;
 	 	padding-bottom: 3%;
 	 	color:white;
-	 	 .profile-pic{
-	 	 	img{
-	 	 		border:2px solid white;
-			border-radius:50%;
-	 	 	}
-	 	 	
-	 	 }
+
 	 }
 }
 .main{
@@ -23,5 +17,21 @@
 		 	border-top: 6px solid;
 		 	
 		 }
+	}
+}
+.profile1-page{
+	.header1{
+		.introduction{
+			float:none;
+			margin:0 auto;
+			   .brder-box{
+			   	  border:1px solid;
+			   	  background:black;
+			   	  color:white;
+			   	  font-size:25px;
+			   	  color: white;
+			   	  padding:4px;
+			   }
+		}
 	}
 }
