@@ -1,10 +1,105 @@
+/* line 2, ../sass/public_multiprofile.scss */
+.main .main-block {
+  float: none;
+  margin: 0 auto;
+}
 /* line 5, ../sass/public_multiprofile.scss */
+.main .main-block p {
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 10px;
+}
+/* line 9, ../sass/public_multiprofile.scss */
+.main .main-block p.org {
+  font-size: 23.3333px;
+  line-height: 0;
+  margin-top: -2px;
+  font-weight: bold;
+}
+/* line 19, ../sass/public_multiprofile.scss */
 .main .row .brder .brder1 {
   float: none;
   margin: 0 auto;
 }
+/* line 24, ../sass/public_multiprofile.scss */
+.main .row.block2 {
+  border-top: 5px solid #682F75;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+/* line 29, ../sass/public_multiprofile.scss */
+.main .row.block2 ul {
+  font-size: 16.6667px;
+}
+/* line 33, ../sass/public_multiprofile.scss */
+.main .row.block2 .left-block p {
+  font-weight: bold;
+  padding-left: 19px;
+  font-size: 16.6667px;
+}
+/* line 44, ../sass/public_multiprofile.scss */
+.main .row.block2 .right-block div.top p {
+  font-size: 16.6667px;
+  padding-left: 19px;
+  font-weight: bold;
+}
+/* line 53, ../sass/public_multiprofile.scss */
+.main .row.block2 .right-block div.bottom p {
+  padding-left: 19px;
+  font-size: 18.3333px;
+}
+/* line 57, ../sass/public_multiprofile.scss */
+.main .row.block2 .right-block div.bottom p.info {
+  font-weight: bold;
+}
+/* line 67, ../sass/public_multiprofile.scss */
+.main .row.footer {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 5px solid #27BDBE;
+}
+/* line 71, ../sass/public_multiprofile.scss */
+.main .row.footer p {
+  font-size: 18.3333px;
+  line-height: 15px;
+}
+/* line 74, ../sass/public_multiprofile.scss */
+.main .row.footer p.f-para2 {
+  font-size: 21.6667px;
+  line-height: 20px;
+  color: #27BDBE;
+  font-weight: bold;
+  margin-top: 20px;
+}
+/* line 80, ../sass/public_multiprofile.scss */
+.main .row.footer p.f-para2 span {
+  color: #ED1557;
+}
+/* line 84, ../sass/public_multiprofile.scss */
+.main .row.footer p.f-para3 {
+  font-size: 21.6667px;
+  line-height: 20px;
+  color: #682F75;
+  font-weight: bold;
+}
+/* line 89, ../sass/public_multiprofile.scss */
+.main .row.footer p.f-para3 span {
+  color: #27BDBE;
+}
+/* line 95, ../sass/public_multiprofile.scss */
+.main .row.info {
+  margin-top: 10px;
+}
+/* line 97, ../sass/public_multiprofile.scss */
+.main .row.info p {
+  font-size: 20px;
+}
+/* line 99, ../sass/public_multiprofile.scss */
+.main .row.info p span {
+  font-weight: bold;
+}
 
-/* line 13, ../sass/public_multiprofile.scss */
+/* line 107, ../sass/public_multiprofile.scss */
 .brder {
   border: 1px solid;
   border-radius: 10%;
@@ -12,41 +107,112 @@
   padding-bottom: 8%;
   margin-top: 10px;
 }
-/* line 19, ../sass/public_multiprofile.scss */
+/* line 113, ../sass/public_multiprofile.scss */
 .brder.first-block {
   background: #ED1557;
   color: white;
 }
-/* line 23, ../sass/public_multiprofile.scss */
+/* line 117, ../sass/public_multiprofile.scss */
 .brder.second-block {
   background: #27BDBE;
   color: white;
 }
-/* line 27, ../sass/public_multiprofile.scss */
+/* line 121, ../sass/public_multiprofile.scss */
 .brder.second1-block {
   background: #B1D34A;
   color: white;
 }
-/* line 31, ../sass/public_multiprofile.scss */
+/* line 125, ../sass/public_multiprofile.scss */
 .brder.third-block {
   background: #14B1E7;
   color: white;
 }
-/* line 35, ../sass/public_multiprofile.scss */
+/* line 129, ../sass/public_multiprofile.scss */
 .brder.fourth-block {
   background: #F7941E;
   color: white;
 }
-/* line 39, ../sass/public_multiprofile.scss */
+/* line 133, ../sass/public_multiprofile.scss */
 .brder.fourth1-block {
   background: #682F75;
   color: white;
 }
+/* line 138, ../sass/public_multiprofile.scss */
+.brder p.name {
+  font-size: 28.3333px;
+  font-weight: bold;
+}
+/* line 142, ../sass/public_multiprofile.scss */
+.brder p.age {
+  font-size: 18.3333px;
+  line-height: 15px;
+}
+/* line 146, ../sass/public_multiprofile.scss */
+.brder p.identy {
+  font-size: 15px;
+  line-height: 7px;
+  margin-bottom: 12px;
+}
 
-/* line 44, ../sass/public_multiprofile.scss */
+/* line 153, ../sass/public_multiprofile.scss */
 .brder1 {
   border: 1px solid;
   border-radius: 0;
   color: black;
   background: white;
+  font-size: 16.6667px;
+  line-height: 19px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/* line 166, ../sass/public_multiprofile.scss */
+.message, .public_multiprofile1 .brder.first-block, .public_multiprofile1 .brder.second-block, .public_multiprofile1 .brder.second1-block, .public_multiprofile1 .brder.third-block, .public_multiprofile1 .brder.fourth-block, .public_multiprofile1 .brder.fourth1-block {
+  background: none;
+  color: gray;
+}
+
+/* line 170, ../sass/public_multiprofile.scss */
+.public_multiprofile1 {
+  color: gray;
+}
+/* line 172, ../sass/public_multiprofile.scss */
+.public_multiprofile1 .brder {
+  border: 5px solid gray;
+}
+/* line 194, ../sass/public_multiprofile.scss */
+.public_multiprofile1 .brder1 {
+  padding-left: 0;
+  padding-right: 0;
+  border-top: 3px solid gray;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  color: gray;
+}
+/* line 204, ../sass/public_multiprofile.scss */
+.public_multiprofile1 .main .block2 {
+  border-top: 5px solid gray;
+}
+/* line 207, ../sass/public_multiprofile.scss */
+.public_multiprofile1 .main .footer {
+  border-top: 5px solid gray;
+}
+/* line 210, ../sass/public_multiprofile.scss */
+.public_multiprofile1 .main .footer p.f-para2 {
+  color: gray;
+}
+/* line 212, ../sass/public_multiprofile.scss */
+.public_multiprofile1 .main .footer p.f-para2 span {
+  color: gray;
+}
+/* line 216, ../sass/public_multiprofile.scss */
+.public_multiprofile1 .main .footer p.f-para3 {
+  color: gray;
+}
+/* line 218, ../sass/public_multiprofile.scss */
+.public_multiprofile1 .main .footer p.f-para3 span {
+  color: gray;
 }

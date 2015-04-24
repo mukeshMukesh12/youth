@@ -6,32 +6,149 @@
 	 	padding-top: 3%;
 	 	padding-bottom: 3%;
 	 	color:white;
+	 	  .intro{
+	 	  	 #first{
+	 	  	 	font-size: 45px;
+	 	  	 }
+	 	  	 #second{
+	 	  	 	font-size: 53.3333px;
+	 	  	 	line-height: 50px;
+	 	  	 }
+	 	  }
+	 	.block1{
+	 		padding-left:0;
+	 		padding-right:0;
+	 		#first{
+	 			font-size: 46.6667px;
+	 		}
+	 		#second{
+	 			font-size: 30px;
+	 			border:1px solid white;
+	 			background:white;
+	 			color: black;
+	 		}
+	 		#third{
+	 			 font-size: 16.6667px;
+	 			 margin-top: 5px;
+	 		}
+	 	}
+	 	.block2{
+	 		.block2-block{
+	 			float: none;
+	 			margin: 0 auto;
+	 			border:1px solid #27BDBE;
+	 			background: #27BDBE;
+	 			padding-top:10px;
+	 			padding-bottom:10px;
+	 			margin-top: 40px;
+
+	 		}
+	 		.first{
+	 			font-size: 26.6667px;
+	 			line-height: 25px;
+	 				span{
+	 					padding-left:50px;
+	 				}
+
+
+	 		}
+	 		.second{
+	 			 font-size: 15px;
+	 			 padding-left:50px;
+
+	 		}
+	 	}
 
 	 }
 }
 .main{
+	margin-top: 30px;
+    margin-bottom:20px;
 	.main-block{
 		float:none;
 		margin:0 auto;
+
+		  .left-block{
+		  	p{
+		  		font-size: 17.5px;
+		  	}
+		  }
+		  .right-block{
+		  	p{
+		  		font-size: 17.5px;
+		  	}
+		  }
+		  .bottom-block{
+		  	font-size: 18.3333px;
+		  	margin-top: 10px;
+		  	margin-bottom: 20px;
+		  }
 		 .footer{
-		 	border-top: 6px solid;
+		 	border-top:5px solid #27BDBE;
+		 	font-size: 21.6667px;
+		 	line-height: 19px;
+		 	padding-top:20px;
+		 	font-weight:bold;
+		 	   p{
+		 	   	  &.f-para1{
+		 	   	  	color: #27BDBE;
+		 	   	  		span{
+		 	   	  			color: #ED1557;
+		 	   	  		}
+		 	   	  }
+		 	   	  &.f-para2{
+		 	   	  	color: #682F75;
+		 	   	  	    span{
+		 	   	  	    	color: #27BDBE;
+		 	   	  	    }
+		 	   	  }
+		 	   	  &.f-para3{
+		 	   	  	color: #F7941E;
+		 	   	  }
+		 	   }
 		 	
 		 }
 	}
 }
 .profile1-page{
 	.header1{
+		 margin-top: 30px;
 		.introduction{
 			float:none;
 			margin:0 auto;
+			  p{
+			  	 font-size: 53.3333px;
+			  	 font-weight: bold;
+			  }
+			 .first{
+			 	 font-size: 41.6667px;
+			 	 font-weight: bold;
+			 }
 			   .brder-box{
 			   	  border:1px solid;
 			   	  background:black;
 			   	  color:white;
-			   	  font-size:25px;
+			   	  font-size: 30px;
 			   	  color: white;
 			   	  padding:4px;
 			   }
 		}
 	}
+	.main{
+		.footer{
+		border-top:5px solid;
+		}
+		.userprofile-pic{
+			position:relative;
+			margin-bottom: 20px;
+			div{
+				position: absolute;
+				top:216px;
+			p{
+			font-size: 20px;
+			line-height: 15px;
+		}
+		}
+	}
+}
 }
